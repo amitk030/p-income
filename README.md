@@ -20,8 +20,8 @@ You can use this project on any device that supports docker. This includes : Ras
 	+ [TraffMonetizer](#-traffmonetizer)
 	+ [Pawns](#-pawns)
 	+ [Bitping](#-bitping)
-	+ [ProxyRack](#-proxyrack) <span style="color:gray">Not runs well with raspberrypi.</span>
-  + [ProxyLite](#-proxylite) <span style="color:gray">Not runs well with raspberrypi</span>
+	+ [ProxyRack](#-proxyrack)  <span style="color:gray"> // Not runs well with raspberrypi.</span>
+  + [ProxyLite](#-proxylite)  <span style="color:gray"> // Not runs well with raspberrypi</span>
 - [Running the stack](#4-running-the-stack)
 - [Support](#5-support)
 
@@ -145,7 +145,7 @@ In the [`.env`](.env), edit :
 | --------- | -----|
 | `YOUR_PACKETSTREAM_CID`  | PacketStream referral ID (4 characters), which can be found in your referral link, the last 4 characters https://packetstream.io/dashboard/referrals |
 
-Note that if you changed the name of the folder in which the [`.env`](.env) is located (by default `p-income`, see section [1. Installation](#installation)), then edit the following:
+Note that if you changed the name of the folder in which the [`.env`](.env) is located (by default `p-income`, see section [Installation](#installation)), then edit the following:
 
 | Variable  | Description |
 | --------- | -----|
